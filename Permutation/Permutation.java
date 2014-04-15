@@ -10,8 +10,8 @@ public class Permutation extends Object {
     }
 
     /*
-        Constructs an n-permutation object, representing a permutation of 0, 1, ..., n-1, and initializes it to the lexicographically
-        first such permutation.
+        Constructs an n-permutation object, representing a permutation of 0, 1, ..., n-1, 
+        and initializes it to the lexicographically first such permutation.
     */
     public Permutation (int n) {
         this.perm = new int[n];
